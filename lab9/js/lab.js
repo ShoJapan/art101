@@ -4,9 +4,9 @@
 //import
 
 //Define
-var newEntry = document.createElement('li');
-var text = document.getElementById("text");
-var blank = document.getElementById("blank");
+let newEntry = document.createElement('li');
+let text = document.getElementById("text");
+let blank = document.getElementById("blank");
 
 //Function
 function Submit() {
