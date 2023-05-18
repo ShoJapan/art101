@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 11: Libraries & jQuery</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 11: Libraries & jQuery</h1>
+			<script src="js/lab.js"></script>
+			<div class="minor-section">
+					<h2>Challenge</h2>
+					<!--Press button to show text: Red-->
+					<button class="redButton" id="textRed">Click Here!</button>
+					<p class="hidden1" id="challenge">The challenge of the lab was to experiment with JS events.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Problems</h2>
+					<!--Press button to show text: blue-->
+					<button class="blueButton" id="textBlue">Click Here!</button>
+					<p class="hidden2" id="problems">I had trouble getting the value from the input field.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Results</h2>
+					<!--Press button to show text: Green-->
+					<button class="greenButton" id="textGreen">Click Here!</button>
+					<p class="hidden3" id="results">The script output below is my results.</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Script Output</h2>
+					<!---->
+					<p>Press the buttons above to read my challenges, problems, and results for this lab.</p>
+					<p>The two buttons below changes each other's colors.</p>
+					<button class="button1" onclick="colorButton1()">Click Me!</button> 
+					<button class="button2" onclick="colorButton2()">No Click Me!</button>
+					<button onclick="resetColors()">RESET</button>
+
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+		</nav>
+	</main>
+</body>
+</html>
