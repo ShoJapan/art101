@@ -35,12 +35,12 @@ function colorButton1() {
   button2.style.backgroundColor = "blue";
 };
 function colorButton2() {
-  button1.style.backgroundColor = "#coral";
-  button2.style.backgroundColor = "#coral";
+  button1.style.backgroundColor = "coral";
+  button2.style.backgroundColor = "coral";
 };
 function resetColors() {
   button1.style.backgroundColor = "blue";
-  button2.style.backgroundColor = "#coral";
+  button2.style.backgroundColor = "coral";
 }
 
 //Output
