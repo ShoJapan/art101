@@ -1,5 +1,5 @@
 // Author: Sho Serrano <shlserra@ucsc.edu>
-// Date: 5/09/2023
+// Date: 5/18/2023
   
 //Define
 var hidden1 = document.querySelector(".hidden1")
