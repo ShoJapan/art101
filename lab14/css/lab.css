@@ -7,3 +7,19 @@
     border: solid 1px #000000;
     background-color: #ffffff;
   }
+
+.Output {
+  height: 500px;
+  width: 1000px;
+  overflow-y: scroll;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+}
+
+.image {
+  width: 1000px;
+}
+  
