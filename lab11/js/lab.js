@@ -6,6 +6,7 @@ var hidden1 = document.querySelector(".hidden1")
 var hidden2 = document.querySelector(".hidden2")
 var hidden3 = document.querySelector(".hidden3")
 var button1 = document.querySelector(".button1")
+var button = document.querySelector(".button")
 var button2 = document.querySelector(".button2")
 var textRed = document.getElementById("textRed")
 var textBlue = document.getElementById("textBlue")
@@ -31,16 +32,16 @@ function colorResults() {
   hidden3.classList.toggle("greenText");
 };
 function colorButton1() {
-  button1.style.backgroundColor = "blue";
-  button2.style.backgroundColor = "blue";
+  button.style.backgroundColor = "blue";
+  button.style.color = "white"
 };
 function colorButton2() {
-  button1.style.backgroundColor = "coral";
-  button2.style.backgroundColor = "coral";
+  button.style.backgroundColor = "coral";
+  button.style.color = "white"
 };
 function resetColors() {
-  button1.style.backgroundColor = "blue";
-  button2.style.backgroundColor = "coral";
+  button.style.backgroundColor = "white";
+  button.style.color = "black";
 }
 
 //Output

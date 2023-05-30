@@ -3,16 +3,21 @@
  * License: Public Domain
  */
 
-// Define Variables
-make = "Ford";
-model = "Toyota";
-color = "Black";
-year = 2014;
-age = 2023 - year;
-
-// output
-document.writeln("Make: " + make + "<br>");
-document.writeln("Model: " + model + "<br>");
-document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + year + "<br>");
-document.writeln("Age: " + age + "<br>");
+document.addEventListener('DOMContentLoaded', function() {
+    // Define Variables
+    var make = "Ford";
+    var model = "Toyota";
+    var color = "Black";
+    var year = 2014;
+    var age = 2023 - year;
+  
+    // Get the output element
+    var outputElement = document.getElementById("output");
+  
+    // Set the content of the element
+    outputElement.innerHTML = "Make: " + make + "<br>" +
+      "Model: " + model + "<br>" +
+      "Color: " + color + "<br>" +
+      "Year: " + year + "<br>" +
+      "Age: " + age + "<br>";
+  });
